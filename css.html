@@ -7,132 +7,171 @@
     <title>CSS</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html">HOME</a>
-      <a href="css.html">CSS</a>
-      <a href="git.html">GIT</a>
-      <a href="html.html">HTML</a>
-      <a href="tailwind.html">TAILWIND</a>
+    <nav class="bg-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-center items-center h-16">
+          <div class="flex space-x-8">
+            <a href="index.html">HOME</a>
+            <a href="css.html">CSS</a>
+            <a href="git.html">GIT</a>
+            <a href="html.html">HTML</a>
+            <a href="tailwind.html">TAILWIND</a>
+          </div>
+        </div>
+      </div>
     </nav>
-    <p class="text-2xl">What is CSS?</p>
-    <ul class="list-disc list-inside">
-      <li>Cascading Style Sheets</li>
-      <li>
-        CSS is used in web development to control the presentation and
-        formatting commonly in HTMl.
-      </li>
-      <li>
-        <strong>External CSS</strong>- styles defined in a separate .css file
-        linked to the HTML document.
-      </li>
-      <li>
-        <strong>Internal CSS</strong>- embedded within the &lthead&gt section
-        using a &ltstyle&gt tag.
-      </li>
-      <li>
-        <strong>Inline CSS</strong>- styles are spplied directly to an idivisual
-        HTML element using style attribute.
-      </li>
-    </ul>
-    <img src="images\css1.png" alt="image not found." />
 
-    <h1>CSS Properties</h1>
-    <div>
-      <h2>Text and Font</h2>
+    <div class="mx-8 p-8">
+      <p class="text-2xl">What is CSS?</p>
+      <ul class="list-disc list-inside">
+        <li>Cascading Style Sheets</li>
+        <li>
+          CSS is used in web development to control the presentation and
+          formatting commonly in HTMl.
+        </li>
+        <li>
+          <strong>External CSS</strong>- styles defined in a separate .css file
+          linked to the HTML document.
+        </li>
+        <li>
+          <strong>Internal CSS</strong>- embedded within the &lthead&gt section
+          using a &ltstyle&gt tag.
+        </li>
+        <li>
+          <strong>Inline CSS</strong>- styles are spplied directly to an
+          idivisual HTML element using style attribute.
+        </li>
+      </ul>
+      <img src="images\css1.png" alt="image not found." />
+    </div>
+
+    <div class="mx-8 p-8">
+      <p>CSS Properties</p>
+      <p>Text and Font</p>
       <table>
         <tr>
-          <td><strong>Color</strong></td>
-          <td>Sets the text color.</td>
+          <td class="border border-gray-300"><strong>Color</strong></td>
+          <td class="border border-gray-300">Sets the text color.</td>
         </tr>
         <tr>
-          <td><strong>font-family</strong></td>
-          <td>Specifies the font to be used.</td>
+          <td class="border border-gray-300"><strong>font-family</strong></td>
+          <td class="border border-gray-300">Specifies the font to be used.</td>
         </tr>
         <tr>
-          <td><strong>font-size</strong></td>
-          <td>Controls the size of the text.</td>
+          <td class="border border-gray-300"><strong>font-size</strong></td>
+          <td class="border border-gray-300">Controls the size of the text.</td>
         </tr>
         <tr>
-          <td><strong>font-weight</strong></td>
-          <td>Defines the thickness of the text.</td>
+          <td class="border border-gray-300"><strong>font-weight</strong></td>
+          <td class="border border-gray-300">
+            Defines the thickness of the text.
+          </td>
         </tr>
         <tr>
-          <td><strong>text-align</strong></td>
-          <td>Sets the horizontal alignment of text.</td>
+          <td class="border border-gray-300"><strong>text-align</strong></td>
+          <td class="border border-gray-300">
+            Sets the horizontal alignment of text.
+          </td>
         </tr>
         <tr>
-          <td><strong>text-decoration</strong></td>
-          <td>Adds decoration like underlines or strikethroughs.</td>
+          <td class="border border-gray-300">
+            <strong>text-decoration</strong>
+          </td>
+          <td class="border border-gray-300">
+            Adds decoration like underlines or strikethroughs.
+          </td>
         </tr>
       </table>
     </div>
 
-    <div>
-      <h2>Background</h2>
+    <div class="mx-8 p-8">
+      <p>Background</p>
       <table>
         <tr>
-          <td><strong>background-color</strong></td>
-          <td>Sets the background color of an element.</td>
+          <td class="border border-gray-300">
+            <strong>background-color</strong>
+          </td>
+          <td class="border border-gray-300">
+            Sets the background color of an element.
+          </td>
         </tr>
         <tr>
-          <td><strong>background-image</strong></td>
-          <td>Specifies a background image.</td>
+          <td class="border border-gray-300">
+            <strong>background-image</strong>
+          </td>
+          <td class="border border-gray-300">Specifies a background image.</td>
         </tr>
         <tr>
-          <td><strong>background-repeat</strong></td>
-          <td>Controls how a background image repeats.</td>
+          <td class="border border-gray-300">
+            <strong>background-repeat</strong>
+          </td>
+          <td class="border border-gray-300">
+            Controls how a background image repeats.
+          </td>
         </tr>
       </table>
     </div>
 
-    <div>
-      <h2>Box Model Properties</h2>
+    <div class="mx-8 p-8">
+      <p>Box Model Properties</p>
       <table>
         <tr>
-          <td><strong>width, height</strong></td>
-          <td>Sets the dimentions of an element.</td>
+          <td class="border border-gray-300"><strong>width, height</strong></td>
+          <td class="border border-gray-300">
+            Sets the dimentions of an element.
+          </td>
         </tr>
         <tr>
-          <td><strong>margin</strong></td>
-          <td>Defines the space outside an element\s border.</td>
+          <td class="border border-gray-300"><strong>margin</strong></td>
+          <td class="border border-gray-300">
+            Defines the space outside an element\s border.
+          </td>
         </tr>
         <tr>
-          <td><strong>padding</strong></td>
-          <td>Defines the space between an element's content and border.</td>
+          <td class="border border-gray-300"><strong>padding</strong></td>
+          <td class="border border-gray-300">
+            Defines the space between an element's content and border.
+          </td>
         </tr>
         <tr>
-          <td><strong>border</strong></td>
-          <td>Sets the style, width, and color of an element's border.</td>
+          <td class="border border-gray-300"><strong>border</strong></td>
+          <td class="border border-gray-300">
+            Sets the style, width, and color of an element's border.
+          </td>
         </tr>
       </table>
     </div>
 
-    <div>
-      <h2>Positioning and Layout Properties</h2>
+    <div class="mx-8 p-8">
+      <p>Positioning and Layout Properties</p>
       <table>
         <tr>
-          <td><strong>display</strong></td>
-          <td>
+          <td class="border border-gray-300"><strong>display</strong></td>
+          <td class="border border-gray-300">
             Controls how an element is rendered. (block, inline, flex, grid)
           </td>
         </tr>
         <tr>
-          <td><strong>position</strong></td>
-          <td>
+          <td class="border border-gray-300"><strong>position</strong></td>
+          <td class="border border-gray-300">
             Specifies the positioning method for an element.(static, relative,
             absolute, fixed)
           </td>
         </tr>
         <tr>
-          <td><strong>float</strong></td>
-          <td>
+          <td class="border border-gray-300"><strong>float</strong></td>
+          <td class="border border-gray-300">
             Aligns an element to the left or right, allowing content to wrap
             around it.
           </td>
         </tr>
         <tr>
-          <td><strong>Flexbox layout</strong></td>
-          <td>flex-direction, justify-content, align-items</td>
+          <td class="border border-gray-300">
+            <strong>Flexbox layout</strong>
+          </td>
+          <td class="border border-gray-300">
+            flex-direction, justify-content, align-items
+          </td>
         </tr>
       </table>
     </div>
