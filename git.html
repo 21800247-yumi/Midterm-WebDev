@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <title>Git</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="css.html">CSS</a>
+      <a href="git.html">GIT</a>
+      <a href="html.html">HTML</a>
+      <a href="tailwind.html">TAILWIND</a>
+    </nav>
+
+    <img src="" alt="image not found." />
+    <div>
+      <p>What is Git?</p>
+      <ul>
+        <li>
+          Git is a free and open source distributed version control system
+          designed to handle projects with speed and efficiency.
+        </li>
+        <li>
+          Git maintains a local copy of the entire repository with history and
+          version-tracking abilities.
+        </li>
+        <li>Git is easy to learn.</li>
+      </ul>
+    </div>
+
+    <div>
+      <p>What is GitHub?</p>
+      <ul>
+        <li>
+          GitHub is used to store, manage, and collaborate on code, documents,
+          and other project files.
+        </li>
+        <li>Allows multiple developers to work on a project simultaneously.</li>
+        <li>
+          Provides tools like issue trackers and task boards to help manage
+          projects and assingn work.
+        </li>
+        <li>
+          It serves as a central cloud-based location to store a project's code.
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p>Getting started with GitHub</p>
+      <p>You can Login or Sign up to GitHub using this link.</p>
+      <a href="https://github.com/login">GitHub Login</a>
+    </div>
+
+    <div>
+      <p>Creating SSH Keys</p>
+      <ul>
+        <li>
+          SSH Keys are used to provide a secure and convinient method for
+          connecting to GitHub.
+        </li>
+        <li>This authentication method uses:</li>
+        <ul>
+          <li><strong>Private Key</strong>- remains on your local machine.</li>
+          <li>
+            <strong>Public Key</strong>- which you can add to your GitHub
+            account.
+          </li>
+        </ul>
+      </ul>
+
+      <table>
+        <p>Adding SSH Key using VS Code Terminal</p>
+        <tr>
+          <th>#</th>
+          <th>STEPS</th>
+          <th>COMMAND</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>In your terminal, generate a new key pair if needed</td>
+          <td>ssh-keygen -t ed25519 -C "your_email@example.com"</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Look for where the identification is saved then copy.</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>type <em>cat [paste identification].pub</em></td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>Go to GitHub settings -> SSH and GPG keys -> New SSH key</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>Paste generated SSH key.</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
