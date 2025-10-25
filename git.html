@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Git</title>
   </head>
   <body>
@@ -15,10 +15,10 @@
       <a href="tailwind.html">TAILWIND</a>
     </nav>
 
-    <img src="" alt="image not found." />
+    <img src="images/git1.png" alt="image not found." width="500" />
     <div>
-      <p>What is Git?</p>
-      <ul>
+      <p class="text-2xl">What is Git?</p>
+      <ul class="list-disc list-inside">
         <li>
           Git is a free and open source distributed version control system
           designed to handle projects with speed and efficiency.
@@ -33,7 +33,7 @@
 
     <div>
       <p>What is GitHub?</p>
-      <ul>
+      <ul class="list-disc list-inside">
         <li>
           GitHub is used to store, manage, and collaborate on code, documents,
           and other project files.
@@ -57,13 +57,13 @@
 
     <div>
       <p>Creating SSH Keys</p>
-      <ul>
+      <ul class="list-disc list-inside">
         <li>
           SSH Keys are used to provide a secure and convinient method for
           connecting to GitHub.
         </li>
         <li>This authentication method uses:</li>
-        <ul>
+        <ul class="list-disc list-inside">
           <li><strong>Private Key</strong>- remains on your local machine.</li>
           <li>
             <strong>Public Key</strong>- which you can add to your GitHub
@@ -72,38 +72,52 @@
         </ul>
       </ul>
 
-      <table>
+      <table class="border-collapse border border-gray-400">
         <p>Adding SSH Key using VS Code Terminal</p>
         <tr>
-          <th>#</th>
-          <th>STEPS</th>
-          <th>COMMAND</th>
+          <th class="border border-gray-300">#</th>
+          <th class="border border-gray-300">STEPS</th>
+          <th class="border border-gray-300">COMMAND</th>
         </tr>
 
         <tr>
-          <td>1</td>
-          <td>In your terminal, generate a new key pair if needed</td>
-          <td>ssh-keygen -t ed25519 -C "your_email@example.com"</td>
+          <td class="border border-gray-300">1</td>
+          <td class="border border-gray-300">
+            In your terminal, generate a new key pair if needed
+          </td>
+          <td class="border border-gray-300">
+            ssh-keygen -t ed25519 -C "your_email@example.com"
+          </td>
         </tr>
 
         <tr>
-          <td>2</td>
-          <td>Look for where the identification is saved then copy.</td>
+          <td class="border border-gray-300">2</td>
+          <td class="border border-gray-300">
+            Look for where the identification is saved then copy.
+          </td>
+          <td class="border border-gray-300"></td>
         </tr>
 
         <tr>
-          <td>3</td>
-          <td>type <em>cat [paste identification].pub</em></td>
+          <td class="border border-gray-300">3</td>
+          <td class="border border-gray-300">
+            type <em>cat [paste identification].pub</em>
+          </td>
+          <td class="border border-gray-300"></td>
         </tr>
 
         <tr>
-          <td>4</td>
-          <td>Go to GitHub settings -> SSH and GPG keys -> New SSH key</td>
+          <td class="border border-gray-300">4</td>
+          <td class="border border-gray-300">
+            Go to GitHub settings -> SSH and GPG keys -> New SSH key
+          </td>
+          <td class="border border-gray-300"></td>
         </tr>
 
         <tr>
-          <td>5</td>
-          <td>Paste generated SSH key.</td>
+          <td class="border border-gray-300">5</td>
+          <td class="border border-gray-300">Paste generated SSH key.</td>
+          <td class="border border-gray-300"></td>
         </tr>
       </table>
     </div>

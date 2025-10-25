@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Html</title>
   </head>
   <body>
@@ -15,9 +15,9 @@
       <a href="tailwind.html">TAILWIND</a>
     </nav>
 
-    <div>
-      <p>What is HTML?</p>
-      <ul>
+    <div class="mx-8 ...">
+      <p class="text-2xl">What is HTML?</p>
+      <ul class="list-disc list-inside">
         <li>HyperText Markup Language</li>
         <li>
           Standard language used to create and design the structure of web
@@ -30,94 +30,98 @@
         <li>HTML consists of a series of elements.</li>
       </ul>
     </div>
-
+    <img src="/images/html1.png" alt="image not found." />
     <h1>Basic HTML Tags</h1>
-    <div>
+    <div class="mx-8 ...">
       <h2>Document Structre</h2>
-      <table>
+      <table class="border-collapse border border-gray-400">
         <tr>
-          <th>Tags</th>
-          <th>Description</th>
+          <th class="border border-gray-300">Tags</th>
+          <th class="border border-gray-300">Description</th>
         </tr>
         <tr>
-          <td>&lt!DOCTYPE html&gt</td>
-          <td>Defines the HTML version.</td>
+          <td class="border border-gray-300">&lt!DOCTYPE html&gt</td>
+          <td class="border border-gray-300">Defines the HTML version.</td>
         </tr>
         <tr>
-          <td>&lthtml&gt</td>
-          <td>Root element of the page.</td>
+          <td class="border border-gray-300">&lthtml&gt</td>
+          <td class="border border-gray-300">Root element of the page.</td>
         </tr>
         <tr>
-          <td>&lthead&gt</td>
-          <td>Contains the meta information.</td>
+          <td class="border border-gray-300">&lthead&gt</td>
+          <td class="border border-gray-300">Contains the meta information.</td>
         </tr>
         <tr>
-          <td>&lttitle&gt</td>
-          <td>Sets the title in the browser tab.</td>
+          <td class="border border-gray-300">&lttitle&gt</td>
+          <td class="border border-gray-300">
+            Sets the title in the browser tab.
+          </td>
         </tr>
         <tr>
-          <td>&ltbody&gt</td>
-          <td>The main content of the website.</td>
+          <td class="border border-gray-300">&ltbody&gt</td>
+          <td class="border border-gray-300">
+            The main content of the website.
+          </td>
         </tr>
       </table>
     </div>
     <hr />
-    <div>
+    <div class="mx-8 ...">
       <h2>Text and Content</h2>
       <table>
         <tr>
-          <th>Tags</th>
-          <th>Description</th>
+          <th class="border border-gray-300">Tags</th>
+          <th class="border border-gray-300">Description</th>
         </tr>
         <tr>
-          <td>&lth1 to h6&gt</td>
-          <td>Headings</td>
+          <td class="border border-gray-300">&lth1 to h6&gt</td>
+          <td class="border border-gray-300">Headings</td>
         </tr>
         <tr>
-          <td>&ltp&gt</td>
-          <td>Paragraph</td>
+          <td class="border border-gray-300">&ltp&gt</td>
+          <td class="border border-gray-300">Paragraph</td>
         </tr>
         <tr>
-          <td>&ltbr&gt</td>
-          <td>Line break</td>
+          <td class="border border-gray-300">&ltbr&gt</td>
+          <td class="border border-gray-300">Line break</td>
         </tr>
         <tr>
-          <td>&lthr&gt</td>
-          <td>Horizontal line</td>
+          <td class="border border-gray-300">&lthr&gt</td>
+          <td class="border border-gray-300">Horizontal line</td>
         </tr>
         <tr>
-          <td>&ltstrong&gt</td>
-          <td>Bold text</td>
+          <td class="border border-gray-300">&ltstrong&gt</td>
+          <td class="border border-gray-300">Bold text</td>
         </tr>
         <tr>
-          <td>&ltem&gt</td>
-          <td>Italic text</td>
+          <td class="border border-gray-300">&ltem&gt</td>
+          <td class="border border-gray-300">Italic text</td>
         </tr>
         <tr>
-          <td>&lta href=""&gt</td>
-          <td>Link</td>
+          <td class="border border-gray-300">&lta href=""&gt</td>
+          <td class="border border-gray-300">Link</td>
         </tr>
         <tr>
-          <td>&ltimg src="" alt=""&gt</td>
-          <td>Image</td>
+          <td class="border border-gray-300">&ltimg src="" alt=""&gt</td>
+          <td class="border border-gray-300">Image</td>
         </tr>
         <tr>
-          <td>&ltsub&gt</td>
-          <td>Subscript text</td>
+          <td class="border border-gray-300">&ltsub&gt</td>
+          <td class="border border-gray-300">Subscript text</td>
         </tr>
         <tr>
-          <td>&ltsup&gt</td>
-          <td>Superscript text</td>
+          <td class="border border-gray-300">&ltsup&gt</td>
+          <td class="border border-gray-300">Superscript text</td>
         </tr>
         <tr>
-          <td>&ltq&gt</td>
-          <td>Quotation</td>
+          <td class="border border-gray-300">&ltq&gt</td>
+          <td class="border border-gray-300">Quotation</td>
         </tr>
       </table>
     </div>
 
-    <h3>Example Outputs:</h3>
-    <div>
+    <div class="mx-8 ...">
+      <h3>Example Outputs:</h3>
       <h1>This is a heading.</h1>
       <p>This is a paragraph.</p>
       <strong>This is a bold text.</strong> <br />
@@ -128,24 +132,26 @@
       <q>These are quotations.</q>
     </div>
     <hr />
-    <div>
+    <div class="mx-8 ...">
       <h2>Lists</h2>
       <table>
         <tr>
-          <th>Tags</th>
-          <th>Description</th>
+          <th class="border border-gray-300">Tags</th>
+          <th class="border border-gray-300">Description</th>
         </tr>
         <tr>
-          <td>&ltul&gt</td>
-          <td>Bullet form list.</td>
+          <td class="border border-gray-300">&ltul&gt</td>
+          <td class="border border-gray-300">Bullet form list.</td>
         </tr>
         <tr>
-          <td>&ltol&gt</td>
-          <td>Numbered Form.</td>
+          <td class="border border-gray-300">&ltol&gt</td>
+          <td class="border border-gray-300">Numbered Form.</td>
         </tr>
         <tr>
-          <td>&ltli&gt</td>
-          <td>List item (used inside ul or ol).</td>
+          <td class="border border-gray-300">&ltli&gt</td>
+          <td class="border border-gray-300">
+            List item (used inside ul or ol).
+          </td>
         </tr>
       </table>
     </div>
