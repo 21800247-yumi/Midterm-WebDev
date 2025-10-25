@@ -6,7 +6,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Home</title>
   </head>
-  <body>
+  <body class="bg-amber-50">
     <nav class="bg-white shadow-md">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-center items-center h-16">
@@ -21,27 +21,62 @@
       </div>
     </nav>
 
-    <div>
-      <p>CSS</p>
-      <p>Learn more about CSS.</p>
-    </div>
+    <div class="flex justify-center items-start min-h-screen m-10 p-8">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center"
+      >
+        <div class="bg-white p-6 rounded-lg shadow-md w-60 text-center">
+          <p class="text-xl font-bold mb-2">CSS</p>
+          <p class="mb-4">Used to control the presentation and formatting.</p>
+          <a
+            href="css.html"
+            class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+          >
+            Learn More</a
+          >
+        </div>
 
-    <div>
-      <p>GIT</p>
-      <p>Learn more about GIT.</p>
-    </div>
+        <div class="bg-white p-6 rounded-lg shadow-md w-60 text-center">
+          <p class="text-xl font-bold mb-2">GIT</p>
+          <p class="mb-4">
+            Designed to handle projects with speed and efficiency.
+          </p>
+          <a
+            href="git.html"
+            class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+          >
+            Learn More</a
+          >
+        </div>
 
-    <div>
-      <p>HTML</p>
-      <p>
-        Standard language used to create and design the structure of web pages.
-      </p>
-      <p>Learn more about HTML.</p>
-    </div>
+        <div class="bg-white p-6 rounded-lg shadow-md w-60 text-center">
+          <p class="text-xl font-bold mb-2">HTML</p>
+          <p class="mb-4">
+            Standard language used to create and design the structure of web
+            pages.
+          </p>
+          <a
+            href="html.html"
+            class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+          >
+            Learn More</a
+          >
+        </div>
 
-    <div>
-      <p>TAILWIND</p>
-      <p>Learn more about Tailwind CSS.</p>
+        <div class="bg-white p-6 rounded-lg shadow-md w-60 text-center">
+          <p class="text-xl font-bold mb-2">TAILWIND</p>
+          <p class="mb-4">
+            Tool for web developers to create custom, responsive designs
+            quickly.
+          </p>
+          <a
+            href="tailwind.html"
+            class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+          >
+            Learn More</a
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>
